@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply shadow appearance-none border rounded w-full h-[40px] text-gray-700 leading-tight focus:outline-none focus:shadow-sm placeholder:text-base px-3 text-left;
+  }
+
+  .label {
+    @apply block text-black text-base font-medium pb-[4px];
+  }
+
+  .btn {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-4 rounded focus:outline-none focus:shadow-sm;
+  }
+
+  .form-tab {
+    @apply flex flex-col pb-[24px];
+  }
+}
